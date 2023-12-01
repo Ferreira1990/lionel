@@ -1,0 +1,13 @@
+.Logoheader{
+    width: 40px;
+}
+
+.Customnavbar {
+    background-color: transparent;   
+  }
+
+  .nav-link{
+    color: white!important;
+    font-weight: 500;
+    font-size: 20px;
+  }

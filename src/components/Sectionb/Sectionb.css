@@ -1,0 +1,96 @@
+.Fathersectionb{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+
+.Fathersectionb h2{   
+    text-transform: uppercase; 
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+
+.Fathersectionb h4{
+
+    color: rgb(255, 132, 0);
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+  
+}
+
+.Fathersectionb p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.Sectionbinfo{
+    display: flex;
+
+}
+
+.infosectionbbox{
+    margin: 10px 20px;
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    width: 25%;
+
+}
+
+.Boxbuttonsectionb{
+    display: flex;
+    justify-content: center;
+}
+
+.Fathersectionb button{
+    margin-top: 20px;
+    width: 220px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: rgb(255, 132, 0);
+    color:rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.Fathersectionb button:hover{
+    transition: all 1s;
+    background-color: rgb(113, 66, 0);
+    color: white;
+}
+
+
+@media (max-width:800px){
+    .Fathersectionb h2{   
+         font-size: 40px;
+ 
+    }
+    .Sectionbinfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Fathersectionb p{
+        margin: 0;
+        padding: 0;    
+    
+    }
+
+    .infosectionbbox{
+        width: 80%;
+    }
+
+    
+}

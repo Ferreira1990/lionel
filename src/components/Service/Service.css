@@ -1,0 +1,299 @@
+.Fatherservice{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: white;
+}
+
+.Fatherservice h2{
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;    
+}
+
+.Firstboxservice{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.Boxsocialmedia{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    height: 420px;
+    width: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/S1.jpg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.Boxsocialmedia h4{
+    text-transform: uppercase;
+    color: rgb(255, 132, 0);
+    font-weight: 700;
+    font-size: 30px;
+    padding: 2px 5px;
+}
+
+.Boxsocialmedia p{
+    color: white;
+    font-weight: 500;
+    padding: 2px 5px;
+}
+
+.Boxpaidmedia{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    height: 420px;
+    width: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/S2.jpg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.Boxpaidmedia h4{
+    text-transform: uppercase;
+    color: rgb(255, 132, 0);
+    font-weight: 700;
+    font-size: 30px;
+    padding: 2px 5px;
+}
+
+
+.Boxpaidmedia p{
+    color: white;
+    font-weight: 500;
+    padding: 2px 5px;
+}
+
+.Boxweb{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    height: 420px;
+    width: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/S3.jpg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+
+.Boxweb h4{
+    text-transform: uppercase;
+    color: rgb(255, 132, 0);
+    font-weight: 700;
+    font-size: 30px;
+    padding: 2px 5px;
+}
+
+.Boxweb p{
+    color: white;
+    font-weight: 500;
+    padding: 2px 5px;
+}
+
+
+
+
+.Secondboxservice{
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+
+.BoxBranded{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    height: 420px;
+    width: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/S4.jpg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.BoxBranded h4{
+    text-transform: uppercase;
+    color: rgb(255, 132, 0);
+    font-weight: 700;
+    font-size: 30px;
+    padding: 2px 5px;
+}
+
+.BoxBranded p{
+    color: white;
+    font-weight: 500;
+    padding: 2px 5px;
+   }
+
+
+
+   .BoxContentMarketing{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    height: 420px;
+    width: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/S5.jpg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.BoxContentMarketing h4{
+    text-transform: uppercase;
+    color: rgb(255, 132, 0);
+    font-weight: 700;
+    font-size: 30px;
+    padding: 2px 5px;
+}
+
+.BoxContentMarketing p{
+    color: white;
+    font-weight: 500;
+    padding: 2px 5px;
+   }
+
+
+   .BoxAudio{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    height: 420px;
+    width: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/S6.jpg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+   }
+
+   .BoxAudio h4{
+    text-transform: uppercase;
+    color: rgb(255, 132, 0);
+    font-weight: 700;
+    font-size: 30px;
+    padding: 2px 5px;
+   }
+
+   .BoxAudio p{
+    color: white;
+    font-weight: 500;
+    padding: 2px 5px;
+   }
+
+
+   @media (max-width:1050px){
+
+    .Boxsocialmedia{
+        height: 360px;
+        width: 240px;
+    }
+
+    .Boxpaidmedia{
+        height: 360px;
+        width: 240px;
+    }
+
+    .BoxAudio{
+        height: 360px;
+        width: 240px;
+    }
+
+    .BoxContentMarketing{
+        height: 360px;
+        width: 240px;
+    }
+
+    .BoxBranded{
+        height: 360px;
+        width: 240px;
+    }
+
+    .Boxweb{
+        height: 360px;
+        width: 240px;
+
+    }
+   }
+
+   @media (max-width:750px){
+
+    .Firstboxservice{
+        display: flex;       
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .Boxsocialmedia{
+        width: 85%;
+        margin-bottom:  20px;   
+    }
+
+    .Boxpaidmedia{
+        width: 85%;
+        margin-bottom:  20px;      
+    }
+
+    .BoxAudio{
+        width: 85%;
+        margin-bottom:  20px;   
+    }
+
+    .BoxContentMarketing{
+        width: 85%;
+        margin-bottom:  20px;   
+    }
+
+    .BoxBranded{
+        width: 85%;
+        margin-bottom:  20px;   
+    }
+
+    .Boxweb{
+        width: 85%;      
+        margin-bottom:  20px;   
+
+    }
+
+    .Secondboxservice{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .Fatherservice h2{
+        text-transform: uppercase;    
+        font-size: 25px;
+    }
+    
+
+
+
+   }

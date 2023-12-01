@@ -1,0 +1,113 @@
+.FatherContact{
+    background-image: url(../../assets/3625482.jpg); 
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    padding: 60px 60px;
+}
+
+.FatherContact h2{
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px black;
+}
+
+
+/* Formulario.css */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow:  2px 2px rgb(255, 255, 255);
+  }
+  
+  .campo {
+    margin-bottom: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  label {
+    font-weight: bold; 
+   color: white; 
+  }
+
+  .Labelnamecostume{
+    margin-top: 20px;
+  }
+  
+  input,
+  textarea {
+    width: 60%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+  }
+  
+  button {
+    background-color: #ffffff;
+    color:  rgb(255, 132, 0);
+    font-weight: 700;
+    font-size: 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 30%;
+    margin-bottom: 20px ;
+
+  }
+  
+  button:hover {
+    transition: all 1s;
+    background-color: rgb(135, 58, 0);
+  }
+  
+
+  .BoxbuttonContact{
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+
+
+  .Socialmedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+
+.Socialmedia img{
+    width: 80px;
+    margin: 5px 20px;      
+ 
+
+  }
+
+  @media (max-width:800px){
+    .FatherContact h2{  
+      font-size: 30px;    
+  }
+
+  .Socialmedia img{
+    width: 50px;
+    margin: 5px 20px;      
+ 
+
+  }
+
+
+  }

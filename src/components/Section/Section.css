@@ -1,0 +1,61 @@
+.Fathersection{
+    background-image: url(../../assets/3625482.jpg); 
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imfsectiona{
+    margin-bottom: 50px;
+}
+
+.Fathersection h3{
+    margin-top: 40px;
+    width: 80%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    padding: 20px 60px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px black;
+    margin-bottom: 40px;
+}
+
+.Fathersection button{
+    width: 220px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color:rgb(255, 132, 0);
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.Fathersection button:hover{
+    transition: all 1s;
+    background-color: rgb(113, 66, 0);
+    color: white;
+}
+
+
+@media (max-width:750px){
+    .Fathersection h3{
+        margin-top: 40px;
+        width: 80%;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 700;
+        color: white;
+        padding: 5px 10px;
+        text-transform: uppercase;
+        text-shadow: 2px 2px black;
+        margin-bottom: 40px;
+    }
+
+}
