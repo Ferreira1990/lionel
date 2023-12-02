@@ -2,12 +2,3 @@
   margin: 0;
   padding: 0;
 }
-
-
-body{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url(../src/assets/bgmain.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
