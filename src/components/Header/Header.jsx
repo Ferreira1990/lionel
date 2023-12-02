@@ -12,7 +12,7 @@ const Header = () => {
     <Navbar expand="lg" className="Customnavbar navbar-dark">
     <Container>
       <Navbar.Brand href="#home"><img className='Logoheader' src={Lua} alt="" /></Navbar.Brand> 
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-toggler"/>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
           <Nav.Link href="#home">Home</Nav.Link>
