@@ -5,7 +5,7 @@ import WA from '../../assets/wa.jpg'
 import WB from '../../assets/wb.jpg'    
 import WC from '../../assets/wc.jpg'
 import WD from '../../assets/wd.jpg'
-import WE from '../../assets/we.jpg'
+import WEE from '../../assets/we.jpg'
 import WF from '../../assets/wf.jpg'
 
 const Ourworks = () => {
@@ -37,7 +37,7 @@ const Ourworks = () => {
             </div>
 
             <div className='boxworkonee'>
-            <a href="https://www.instagram.com/p/CzrBrsysf31/?img_index=1" target="_blank" rel="noopener noreferrer"><img src={WE} alt="Proyecto 1"/></a>
+            <a href="https://www.instagram.com/p/CzrBrsysf31/?img_index=1" target="_blank" rel="noopener noreferrer"><img src={WEE} alt="Proyecto 1"/></a>
             </div>
 
             
