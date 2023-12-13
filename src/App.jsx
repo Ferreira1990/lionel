@@ -7,6 +7,7 @@ import Section from './components/Section/Section';
 
 import Sectionb from './components/Sectionb/Sectionb';
 import Contact from './components/Contact/Contact';
+import Ourworks from './components/Ourworks/Ourworks';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
   <Service />
   <Section />
   <Sectionb />
+  <Ourworks />
   <Contact />
     </>
   )

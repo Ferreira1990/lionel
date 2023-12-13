@@ -1,0 +1,124 @@
+.Fatherboxworks{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.Boxtitleworks{
+    display: flex;
+    justify-content: center;
+
+}
+.Boxtitleworks h1{
+    text-transform: uppercase; 
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.Cardworks{
+    display: flex;
+    justify-content: space-evenly;;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.Cardworkstwo{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+
+.boxworkonea img{
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+
+}
+
+.boxworkonea img:hover{
+    border: 20px solid orange; 
+    transition: all 1s;  
+
+}
+
+.boxworkoneb img{
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+
+}
+
+.boxworkoneb img:hover{
+    border: 20px solid orange; 
+    transition: all 1s;  
+
+}
+
+.boxworkonec img{
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+
+}
+
+.boxworkonec img:hover{
+    border: 20px solid orange; 
+    transition: all 1s;  
+
+}
+
+.boxworkoned img{
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+
+}
+
+.boxworkoned img:hover{
+    border: 20px solid orange; 
+    transition: all 1s;  
+
+}
+
+.boxworkonee img{
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+
+}
+
+.boxworkonee img:hover{
+    border: 20px solid orange; 
+    transition: all 1s;  
+
+}
+
+.boxworkonef img{
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+
+}
+
+.boxworkonef img:hover{
+    border: 20px solid orange; 
+    transition: all 1s;  
+
+}
