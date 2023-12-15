@@ -31,7 +31,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/S01.jpg);
     background-position: center;
     background-size: cover;
-    cursor: pointer;
+   
 }
 
 .Boxsocialmedia h4{
@@ -59,7 +59,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/S02.jpg);
     background-position: center;
     background-size: cover;
-    cursor: pointer;
+ 
 }
 
 .Boxpaidmedia h4{
@@ -88,7 +88,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/S03.jpg);
     background-position: center;
     background-size: cover;
-    cursor: pointer;
+  
 }
 
 
@@ -130,7 +130,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/S04.jpg);
     background-position: center;
     background-size: cover;
-    cursor: pointer;
+   
 }
 
 .BoxBranded h4{
@@ -160,7 +160,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/S05.jpg);
     background-position: center;
     background-size: cover;
-    cursor: pointer;
+    
 }
 
 .BoxContentMarketing h4{
@@ -189,7 +189,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/S06.jpg);
     background-position: center;
     background-size: cover;
-    cursor: pointer;
+    
    }
 
    .BoxAudio h4{
