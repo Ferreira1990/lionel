@@ -15,20 +15,10 @@ const Header = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-toggler"/>
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">Nosotros</Nav.Link>
-          <NavDropdown title="Trabajos" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1"></NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">
-              Another action
-            </NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">
-              Separated link
-            </NavDropdown.Item>
-          </NavDropdown>
-          <Nav.Link href="#link">Contacto</Nav.Link>
+          <Nav.Link href="#MAINX">Home</Nav.Link>
+          <Nav.Link href="#QUIENES">Nosotros</Nav.Link>
+          <Nav.Link href="#TRABAJOS">Trabajos</Nav.Link>
+          <Nav.Link href="#CONTACTOX">Contacto</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>

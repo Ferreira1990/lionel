@@ -11,7 +11,7 @@ import WF from '../../assets/wf.jpg'
 const Ourworks = () => {
   return (
     <>
-    <div className='Fatherboxworks'>
+    <div id='TRABAJOS' className='Fatherboxworks'>
         <div className='Boxtitleworks'><h1>Nuestros Trabajos</h1></div>
 
         <div className='Cardworks'>

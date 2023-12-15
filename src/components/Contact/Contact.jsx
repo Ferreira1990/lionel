@@ -45,7 +45,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='FatherContact'>
+    <div id='CONTACTOX' className='FatherContact'>
       <h2>Escríbenos!</h2>
       {enviado && <div className='boxsentmessage'><p>¡Tu mensaje fue enviado!</p></div>}
       {enviando && <div className='boxsentmessage'><p>Tu mensaje se está enviando...</p></div>}
@@ -86,7 +86,7 @@ const Contact = () => {
       )}
 
       <div className='Socialmedia'>
-        <a href="https://www.tiktok.com/@agencialuaoficial/"><img src={Tiktok} alt="" /></a>
+        <a href="https://www.tiktok.com/@mundoleondigital?_t=8iDAchisQQX&_r=1"><img src={Tiktok} alt="" /></a>
         <a href="https://www.instagram.com/mundoleon/"><img src={Instaa} alt="" /></a>
         <a href="https://www.linkedin.com/company/agencialua/"><img src={Linkedinn} alt="" /></a>
       </div>

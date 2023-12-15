@@ -4,7 +4,7 @@ import '../Main/Main.css'
 const Main = () => {
   return (
    
-    <div className='Fathermain'>
+    <div id='MAINX' className='Fathermain'>
         <div className='TitleMain'>
             <div className='infoTitleMain'>
             <p>Social Media Management | Contenido Audiovisual Digital | Paid Media | Webmastering | Branded Content | Content Marketing </p>
@@ -12,7 +12,7 @@ const Main = () => {
             <h4>Contenido digital.
             <span className='spanx'> Posicionamos</span> tu marca en <span className='spanx'>redes sociales</span>.<br/>
                Creativos - Audiovisuales - Digitales</h4>
-               <div className='Mainboxbutton'><button>Cónocenos</button></div>
+               <div className='Mainboxbutton'> <a href="https://api.whatsapp.com/send?phone=56985480872&text=Hola%20"><button>Cónocenos</button></a></div>
           
             </div>
       

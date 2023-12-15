@@ -23,7 +23,7 @@ const Sectionb = () => {
             </div>
 
         </div>
-        <div className='Boxbuttonsectionb'><button>Cónocenos</button></div>
+        <div className='Boxbuttonsectionb'> <a href="https://api.whatsapp.com/send?phone=56985480872&text=Hola%20"><button>Cónocenos</button></a> </div>
     </div>
   )
 }
