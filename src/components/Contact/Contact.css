@@ -89,7 +89,8 @@ form {
     color: white;
     font-weight: 700;
     font-size: 35px;
-    text-transform: uppercase;   
+    text-transform: uppercase; 
+    text-align: center;  
   }
 
 

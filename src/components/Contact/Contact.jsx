@@ -86,9 +86,9 @@ const Contact = () => {
       )}
 
       <div className='Socialmedia'>
-        <a href=""><img src={Tiktok} alt="" /></a>
-        <a href=""><img src={Instaa} alt="" /></a>
-        <a href=""><img src={Linkedinn} alt="" /></a>
+        <a href="https://www.tiktok.com/@agencialuaoficial/"><img src={Tiktok} alt="" /></a>
+        <a href="https://www.instagram.com/mundoleon/"><img src={Instaa} alt="" /></a>
+        <a href="https://www.linkedin.com/company/agencialua/"><img src={Linkedinn} alt="" /></a>
       </div>
     </div>
   );
