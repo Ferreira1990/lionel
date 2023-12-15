@@ -17,7 +17,7 @@ const Ourworks = () => {
         <div className='Cardworks'>
 
             <div className='boxworkonea'>
-            <a href="http://" target="_blank" rel="noopener noreferrer"><img src={WA} alt="Proyecto 1"/></a>
+            <a href="https://www.tiktok.com/@feriadepostulacion/video/7306939269505961222" target="_blank" rel="noopener noreferrer"><img src={WA} alt="Proyecto 1"/></a>
             </div>
 
             <div className='boxworkoneb'>

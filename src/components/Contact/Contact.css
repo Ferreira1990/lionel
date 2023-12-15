@@ -80,6 +80,19 @@ form {
   }
 
 
+  .boxsentmessage{
+    display: flex;
+    justify-content: center;    
+  }
+
+  .boxsentmessage p{
+    color: white;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform: uppercase;   
+  }
+
+
 
 
 
